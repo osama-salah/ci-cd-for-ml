@@ -4,7 +4,7 @@ def main():
   print('Hello World!!!')
 
   current_datetime = datetime.now()
-  print(f'Time now: {current_time}')
+  print(f'Time now: {current_datetime}')
 
-if __name__ == 'main':
+if __name__ == '__main__':
   main()
